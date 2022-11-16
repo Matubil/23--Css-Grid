@@ -1,13 +1,33 @@
 *{
     padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 16px; /*siempre la medida para cambair el rem tiene que estar en el html, que desde ahi la vamos a poder cambiar y despues las demas medidas las ponemos en rem en base al font-size del html*/
 }
 
 body{
-    background-color: black;
+    background-color: #222;
     color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.grid-container{
 
 }
 
-p{
-    border: 2px solid red;
+.grid-box{
+    background-color: lightblue;
+    border: 3px solid darkblue;
+    padding: 2rem; /*2rem = 2*16px */
+}
+
+.text-main{
+    font-size: 14px;
+}
+
+div.info{
+    font-size: 10px;
 }
