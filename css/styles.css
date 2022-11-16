@@ -4,4 +4,10 @@
 
 body{
     background-color: black;
+    color: white;
+
+}
+
+p{
+    border: 2px solid red;
 }
